@@ -7,12 +7,12 @@ Exemplo, para o caso de 1 a 5, o programa nos daria '1, 2, Tico, 4, Teco'.
 Utilize o esqueleto a seguir para implementar seu código:
 
 public void ticoTeco() {// Seu código}
-
-*/
+ */
 
 public class multiplos {
 
-    public void ticoTeco() {
+    public static void main(String[] args) {
+
         for(int i = 1; i <= 100; i++) {
 
             if(i % 3 == 0 && i % 5 == 0) {

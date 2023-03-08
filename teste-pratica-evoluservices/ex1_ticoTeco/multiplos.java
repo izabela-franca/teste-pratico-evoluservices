@@ -12,7 +12,11 @@ public void ticoTeco() {// Seu código}
 public class multiplos {
 
     public static void main(String[] args) {
+        ticoTeco();
 
+    }
+
+    public static void ticoTeco() {
         for(int i = 1; i <= 100; i++) {
 
             if(i % 3 == 0 && i % 5 == 0) {
